@@ -1,6 +1,6 @@
-# Penkta uzduotis
+# Penkta užduotis
 class fifth:  # Sukūriama klasė fifth
-    def compress_text(self, text):  # Sukuriama funkcija compress_text, kuri skirta teksto suspaudimui
+    def compress_text(self, text):  # Sukūriama funkcija compress_text, kuri skirta teksto suspaudimui
         try:
             temp_value = None  # Laikinas kintamasis
             i = 1  # Skaičius ciklui

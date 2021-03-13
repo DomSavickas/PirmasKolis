@@ -1,6 +1,6 @@
-# Pirma uzduotis
+# Pirma užduotis
 class first:  # Sukūriama klasė first
-    def summing_function(self, n, a, b):  # Sukuriama funkcija summing_function, kuriai perduodami trys parametrai n, a, b
+    def summing_function(self, n, a, b):  # Sukūriama funkcija summing_function, kuriai perduodami trys parametrai n, a, b
         try:
             given_text=list(n)  # given_text yra n kintamojo listas
             positive_symbols=list(a)  # positive_symbols yra a kintamojo listas
@@ -17,11 +17,11 @@ class first:  # Sukūriama klasė first
                             temp_positive+=1
             except:
                 print("Problema su ciklu!")
-            result=temp_positive-temp_negative  # Sukurtas result kintamasis, kuriama yra atimama negative suma iš positive
+            result=temp_positive-temp_negative  # Sukurtas result kintamasis, kuriame yra atimama negative suma iš positive
             print("Jūsų rezultatas: "+str(result))
         except:
             print("Bandykite iš naujo!")
 
 fi=first()  # Priskiriamas kintamasis klasei
-fi.summing_function("vienas du trys", "vn ", "ayds")  # Iskvieciama summing_function funkcija, kai programa yra paleidziama
+fi.summing_function("vienas du trys", "vn ", "ayds")  # Iškviečiama summing_function funkcija, kai programa yra paleidžiama
 fi.summing_function("keturiolika", "ktur", "ila")
